@@ -1,0 +1,95 @@
+{
+	"mensajes": {
+		"m1": {
+			"personaje": 	"elotro",
+			"texto": 		"¡Buenos días, señor Winters! ¿Qué le pongo?",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "No estoy seguro, déjame pensar...",
+					"target": "_death"
+				},
+				"r2": {
+					"texto": "Un café",
+					"target": "m2"
+				},
+				"r3": {
+					"texto": "Un té rojo",
+					"target": "_death"
+				},
+				"r4": {
+					"texto": "Un bourbon, hoy tengo ganas de acción",
+					"target": "_death"
+				}
+			},
+			"volver": "null"
+		},
+		"m2": {
+			"personaje": 	"elotro",
+			"texto": 		"¿Cómo lo quiere?",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "Sorpréndeme",
+					"target": "_death"
+				},
+				"r2": {
+					"texto": "Para llevaré",
+					"target": "_death"
+				},
+				"r3": {
+					"texto": "Como siempre",
+					"target": "m3"
+				},
+				"r4": {
+					"texto": "Con un poco de bourbon, hoy tengo ganillas de acción",
+					"target": "_death"
+				}
+			},
+			"volver": "null"
+		},
+		"m3": {
+			"personaje": 	"elotro",
+			"texto": 		"Perdóneme, hoy tengo la mente un poco ida. ¿Cómo se lo pongo?",
+			"mostrar":		"true",
+			"respuestas": 	"null",
+			"volver": 		"null"
+		},
+		"m4": {
+			"personaje": 	"elotro",
+			"texto": 		"Espero que le haya gustado. Por cierto, ¿qué tal su madre?",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "Muy bien, gracias.",
+					"target": "_death"
+				},
+				"r2": {
+					"texto": "Mi madre lleva décadas muerta",
+					"target": "m5"
+				},
+				"r3": {
+					"texto": "Algo tocada de la rodilla.",
+					"target": "_death"
+				},
+				"r4": {
+					"texto": "La verdad es que hace tiempo que no la veo",
+					"target": "_death"
+				}
+			},
+			"volver": "null"
+		},
+		"m5": {
+			"personaje": 	"elotro",
+			"texto": 		"¡Lo siento muchísimo! Ya le he dicho que hoy estoy ida.",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "",
+					"target": "_fin_escena"
+				}
+			},
+			"volver": "null"
+		}
+	}
+}
