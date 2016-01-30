@@ -1,53 +1,88 @@
 {
-	"Escena": 1,
-	"Mensajes": [{
-		"Personaje": "cyborg",
-		"Texto": "Empieza a hablar",
-		"Respuestas": [{
-			"Texto": "hola"
-		}, {
-			"Texto": "adios"
-		}, {
-			"Texto": "hey"
-		}, {
-			"Texto": "fellas"
-		}]
-	}, {
-		"Personaje": "elotro",
-		"Texto": "¿Cuantas veces te crees que puedes reiniciarme?",
-		"Respuestas": [{
-			"Texto": "Disparar"
-		}, {
-			"Texto": 2
-		}, {
-			"Texto": 3
-		}, {
-			"Texto": 4
-		}]
-	}, {
-		"Personaje": "elotro",
-		"Texto": "Eso es poco, estas jodido",
-		"Respuestas": [{
-			"Texto": null
-		}, {
-			"Texto": null
-		}, {
-			"Texto": null
-		}, {
-			"Texto": null
-		}]
-	}, {
-		"Personaje": "cyborg",
-		"Texto": "Ya veremos... Conversemos ",
-		"Respuestas": [{
-			"Texto": "Vicios"
-		}, {
-			"Texto": "Trabajo"
-		}, {
-			"Texto": "Personalidad"
-		}, {
-			"Texto": "Chofer"
-		}]
-	}]
-
+	"mensajes": {
+		"m1": {
+			"personaje": 	"cyborg",
+			"texto": 		"Empieza a hablar",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "hola",
+					"target": "m2"
+				},
+				"r2": {
+					"texto": "adios",
+					"target": "m2"
+				},
+				"r3": {
+					"texto": "hey",
+					"target": "m2"
+				},
+				"r4": {
+					"texto": "fellas",
+					"target": "m2"
+				}
+			},
+			"volver": "null"
+		},
+		"m2": {
+			"personaje": 	"elotro",
+			"texto": 		"¿Cuantas veces te crees que puedes reiniciarme?",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "Disparar",
+					"target": "_fin_escena"
+				},
+				"r2": {
+					"texto": "2",
+					"target": "m3"
+				},
+				"r3": {
+					"texto": "3",
+					"target": "m3"
+				},
+				"r4": {
+					"texto": "4",
+					"target": "m3"
+				}
+			},
+			"volver": "null"
+		},
+		"m3": {
+			"personaje": 	"elotro",
+			"texto": 		"Eso es poco, estas jodido",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "",
+					"target": "m4"
+				}
+			},
+			"volver": "null"
+		},
+		"m4": {
+			"personaje": 	"cyborg",
+			"texto": 		"Ya veremos... Conversemos",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "Vicios",
+					"target": "_fin_escena"
+				},
+				"r2": {
+					"texto": "Trabajo",
+					"target": "_fin_escena"
+				},
+				"r3": {
+					"texto": "Personalidad",
+					"target": "_fin_escena"
+				},
+				"r4": {
+					"texto": "Chofer",
+					"target": "_fin_escena"
+				}
+			},
+			"volver": "null"
+		}
+	}
 }
