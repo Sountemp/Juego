@@ -4,13 +4,13 @@
 		"Personaje": "cyborg",
 		"Texto": "Empieza a hablar",
 		"Respuestas": [{
-			"Texto": null
+			"Texto": "hola"
 		}, {
-			"Texto": null
+			"Texto": "adios"
 		}, {
-			"Texto": null
+			"Texto": "hey"
 		}, {
-			"Texto": null
+			"Texto": "fellas"
 		}]
 	}, {
 		"Personaje": "elotro",
@@ -35,6 +35,18 @@
 			"Texto": null
 		}, {
 			"Texto": null
+		}]
+	}, {
+		"Personaje": "cyborg",
+		"Texto": "Ya veremos... Conversemos ",
+		"Respuestas": [{
+			"Texto": "Vicios"
+		}, {
+			"Texto": "Trabajo"
+		}, {
+			"Texto": "Personalidad"
+		}, {
+			"Texto": "Chofer"
 		}]
 	}]
 
