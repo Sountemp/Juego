@@ -8,6 +8,7 @@ public class ReadScript : MonoBehaviour {
 
 	private string escena;
 	JSONNode N;
+
 	// Use this for initialization
 	void Start()
 	{
@@ -17,15 +18,29 @@ public class ReadScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
 	{
-		string a = N ["Mensajes"] [0] ["Personaje"];
-		Debug.Log (N["Mensajes"].Count);
- 		GetPersonaje ();
 
 	}
+
 	public void GetPersonaje(){
 		for (int i = 0; i < N ["Mensajes"].Count; i++) {
-			if (N ["Mensajes"] [i] == "Personaje") {
-				Debug.Log (N ["Mensajes"] [i]);
+			if (N ["Mensajes"] [i] ["Personaje"] != null) {
+					//devuelve el nombre del personaje de cada texto
+			}
+		}
+	}
+
+	public void GetMensaje(){
+		for (int i = 0; i < N ["Mensajes"].Count; i++) {
+			if (N ["Mensajes"] [i] ["Texto"] != null) {
+				//devuelve el texto
+			}
+		}
+	}
+
+	public void GetRespuestas(){
+		for (int i = 0; i < N ["Mensajes"]["Respuestas"].Count; i++) {
+			if (N ["Mensajes"] [i] ["Respuestas"] != null) {
+				//devuelve las posibles respuestas
 			}
 		}
 	}
