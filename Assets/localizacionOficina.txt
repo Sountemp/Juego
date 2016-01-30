@@ -1,0 +1,30 @@
+{
+	"mensajes": {
+		"m1": {
+			"personaje": 	"elotro",
+			"texto": 		"Buenos días, jefe. ¿Cómo se encuentra hoy?",
+			"mostrar":		"true",
+			"respuestas": 	"null",
+			"volver": 		"null"
+		},
+		"m2": {
+			"personaje": 	"elotro",
+			"texto": 		"Seguro que no está nervioso por la reunión de esta tarde?",
+			"mostrar":		"true",
+			"respuestas": 	"null",
+			"volver": 		"null"
+		},
+		"m3": {
+			"personaje": 	"elotro",
+			"texto": 		"Jajaja... Cómo son los hombres. En fin, le agradará saber que hoy no hay ninguna notificación pendiente.",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "",
+					"target": "_fin_escena"
+				}
+			},
+			"volver": "null"
+		}
+	}
+}

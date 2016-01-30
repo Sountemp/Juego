@@ -1,0 +1,96 @@
+{
+	"mensajes": {
+		"m1": {
+			"personaje": 	"elotro",
+			"texto": 		"Ave María Purísima...",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "Osana en el cielo",
+					"target": "_death"
+				},
+				"r2": {
+					"texto": "Madre de Dios",
+					"target": "_death"
+				},
+				"r3": {
+					"texto": "Corta el rollo y hablemos de negocios",
+					"target": "_death"
+				},
+				"r4": {
+					"texto": "Sin pecado concebida",
+					"target": "m2"
+				}
+			},
+			"volver": "null"
+		},
+		"m2": {
+			"personaje": 	"elotro",
+			"texto": 		"Cuéntame, ¿cuáles son tus pecados?",
+			"mostrar":		"true",
+			"respuestas": "null",
+			"volver": "null"
+		},
+		"m3": {
+			"personaje": 	"elotro",
+			"texto": 		"¿Otra vez? Eso está mal, hijo mío. De no ser por tus generosas donaciones, no podría perdonarte.",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "",
+					"target": "m4"
+				}
+			},
+			"volver": "null"
+		},
+		"m4": {
+			"personaje": 	"cyborg",
+			"texto": 		"Lo siento, Padre. La carne es débil.",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "",
+					"target": "m5"
+				}
+			},
+			"volver": "null"
+		},
+		"m5": {
+			"personaje": 	"elotro",
+			"texto": 		"Espero que por lo menos estés dispuesto a perdonar a tu padre terrenal.",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "Ayer hablé con él e hicimos las paces",
+					"target": "_death"
+				},
+				"r2": {
+					"texto": "Cada vez estoy más cerca de hacerlo",
+					"target": "_death"
+				},
+				"r3": {
+					"texto": "¡Nunca!",
+					"target": "m6"
+				},
+				"r4": {
+					"texto": "Estoy dispuesto",
+					"target": "_death"
+				}
+			},
+			"volver": "null"
+		},
+		"m6": {
+			"personaje": 	"elotro",
+			"texto": 		"Está bien, hijo mío. ",
+			"mostrar":		"true",
+			"respuestas": {
+				"r1": {
+					"texto": "",
+					"target": "_fin_escena"
+				}
+			},
+			"volver": "null"
+		}
+	}
+}
+
