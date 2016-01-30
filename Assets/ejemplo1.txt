@@ -1,0 +1,41 @@
+{
+	"Escena": 1,
+	"Mensajes": [{
+		"Personaje": "cyborg",
+		"Texto": "Empieza a hablar",
+		"Respuestas": [{
+			"Texto": null
+		}, {
+			"Texto": null
+		}, {
+			"Texto": null
+		}, {
+			"Texto": null
+		}]
+	}, {
+		"Personaje": "elotro",
+		"Texto": "¿Cuantas veces te crees que puedes reiniciarme?",
+		"Respuestas": [{
+			"Texto": "Disparar"
+		}, {
+			"Texto": 2
+		}, {
+			"Texto": 3
+		}, {
+			"Texto": 4
+		}]
+	}, {
+		"Personaje": "elotro",
+		"Texto": "Eso es poco, estas jodido",
+		"Respuestas": [{
+			"Texto": null
+		}, {
+			"Texto": null
+		}, {
+			"Texto": null
+		}, {
+			"Texto": null
+		}]
+	}]
+
+}
